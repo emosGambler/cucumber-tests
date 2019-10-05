@@ -1,0 +1,18 @@
+{
+  "name": "erc20-cucumber-tests",
+  "version": "1.0.0",
+  "description": "POC of the E2E UI tests for GFT blockchain project - ERC20 token.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gft",
+    "blockchain",
+    "erc20",
+    "token",
+    "poc"
+  ],
+  "author": "jacek.goraj@gft.com jckgrj@gmail.com",
+  "license": "ISC"
+}
