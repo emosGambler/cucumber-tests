@@ -4,7 +4,8 @@
   "description": "POC of the E2E UI tests for GFT blockchain project - ERC20 token.",
   "main": "index.js",
   "scripts": {
-    "test": "npm run tsc && protractor ./tmp/config.js",
+    "clean": "rimraf tmp/",
+    "test": "npm run clean && npm run tsc && protractor ./tmp/config.js",
     "tsc": "tsc",
     "webdriver-manager:update": "webdriver-manager update"
   },

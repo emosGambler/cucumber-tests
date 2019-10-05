@@ -16,7 +16,7 @@ export let config: Config = {
     ],
     cucumberOpts: {
         require: [
-            './steps/*.js'
+            './steps/**/*'
         ]
     },
     SELENIUM_PROMISE_MANAGER: false

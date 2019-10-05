@@ -3,5 +3,5 @@ Feature: Wallet
 
     Scenario: Creating wallet
         Given user logins to account
-        When user opens a new wallet
-        Then a new wallet is created
+        # When user opens a new wallet
+        # Then a new wallet is created
