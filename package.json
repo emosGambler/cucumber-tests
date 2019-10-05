@@ -4,7 +4,9 @@
   "description": "POC of the E2E UI tests for GFT blockchain project - ERC20 token.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run tsc && protractor ./tmp/config.js",
+    "tsc": "tsc",
+    "webdriver-manager:update": "webdriver-manager update"
   },
   "keywords": [
     "gft",
@@ -13,6 +15,14 @@
     "token",
     "poc"
   ],
-  "author": "jacek.goraj@gft.com jckgrj@gmail.com",
-  "license": "ISC"
+  "author": "jacek.goraj@gft.com, jckgrj@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^12.7.11",
+    "cucumber": "^5.1.0",
+    "protractor": "^5.4.2",
+    "protractor-cucumber-framework": "^6.1.3",
+    "rimraf": "^3.0.0",
+    "typescript": "^3.6.3"
+  }
 }
